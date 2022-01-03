@@ -1,0 +1,39 @@
+@font-face { font-family: ubuntu; src: url("Ubuntu-Regular.ttf"); }
+#close {
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#titlebar {
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+
+#terminal {
+    font-family: ubuntu;
+    color: #23fa38;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 0;
+    }
+}
+
+#terminal h3::after {
+    content:"";
+    width: 10px;
+    height:22px;
+    margin-left: 1px;
+    margin-bottom: 0px;
+    background:#23fa38;
+    display:inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
