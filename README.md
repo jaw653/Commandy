@@ -1,2 +1,2 @@
 # Commandy
-Chrome plugin for learning Linux commands.
+Chrome extension for learning Linux commands.
