@@ -305,8 +305,7 @@ function repopulate() {
     document.getElementById('description').innerHTML = cmds[cmd];
 }
 window.addEventListener('load', function() {
-    repopulate();
-    
+    repopulate();  
     document.getElementById('newCmd').onclick = () => {repopulate()};
 });
 

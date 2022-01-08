@@ -1,7 +1,7 @@
-- Build a nice looking html file that we will populate with commands
+- Build a nice looking html file that we will populate with commands [x]
 - Scrape the commands [x]
-- Populate the web page with the scraped commands
-- Transition into a chrome extension
+- Populate the web page with the scraped commands [x]
+- Transition into a chrome extension !!!
 
 - Features:
     - Allow for manual random select of new command
